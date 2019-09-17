@@ -9,27 +9,65 @@ CLIENTE DE FACEBOOK
                                                       
                               o	Instalación:
 
-Para comenzar a usar Java SDK, siga las instrucciones en "Getting started instruction".
+Clonar el repositorio
 
-Si desea utilizar un archivo .jar precompilado, visite https://repo1.maven.org/maven2/com/facebook/business/sdk/facebook-java-business-sdk/ para descargar una versión específica. Si descarga el que no tiene dependencias, deberá descargar todos los archivos .jar dependientes y agregarlos a su ruta cuando compile y ejecute. Use el archivo .pom en el directorio de la versión para decidir las dependencias.
+git clone https://github.com/DavidServn/fbcmd4j.git
 
+                              Importar a Eclipse
 
+Dar clic en File -> Import -> Existing Projects into Workspace.
+Seleccionar la carpeta raíz donde se clonó el proyecto.
+Exportar .jar
+
+Dar clic derecho al proyecto en Eclipse.
+Seleccionar Export -> Runnable JAR file.
+Ejecutar .jar
+
+Abrir la carpeta bin.
+Abrir la terminal (utilizar privilegios de administrador en Windows).
+Navegar a la carpeta fbcmd4j/bin donde se encuentra el archivo fbcmd4j.jar.
+Ejecutar el comando java -jar fbcmd4j.jar.
 
                               o	Uso:
+                        Configurar la cuenta de Facebook
 
-Este proyecto se usara para poder aprender como hacer que un cliente de Facebook pueda realizar cuatro operaciones básicas por medio de Java.
+--Seleccionar la opción 0 Configurar Cliente.
+--Ir a la página web que se muestra.
+--Escribir el código que generó la aplicación.
+--Aceptar y dar permisos a la aplicación.
 
 
+                           Obtener el NewsFeed
+
+--Seleccionar la opción 1 NewsFeed.
+--Escribir 'Si' en caso de querer guardar los posts en un archivo.
+--Escribir el número de posts a guardar.
+
+                         Obtener el Wall
+
+--Seleccionar la opción 2 Wall.
+--Escribir 'Si' en caso de querer guardar los posts en un archivo.
+--Escribir el número de posts a guardar.
+
+
+                       Publicar un Estado
+
+--Seleccionar la opción 3 Publicar Estado.
+--Escribir el estado deseado.
+
+
+                    Publicar un Link
+
+--Seleccionar la opción 4 Publicar Link.
+--Escribir el link deseado.
 
                              o	Créditos: 
-
-Crear un cliente de Facebook en linea de comandos Este es un sistema que permite que se pueda realizar cuatro operaciones básicas, además de configuración de la aplicación en Java y en Facebook.Esto se utilizara con la finalidad de aprender como utilizar Github.
-
-
-
+                             
+                             
+Desarrollado por:
+Daniela Villagrán Galván
 
 
 
                            o	Licencia:
 
-Facebook Business SDK for Java is licensed under the LICENSE file in the root directory of this source tree.
