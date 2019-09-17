@@ -11,7 +11,7 @@ CLIENTE DE FACEBOOK
 
 Clonar el repositorio
 
-git clone https://github.com/DavidServn/fbcmd4j.git
+git clone https://github.com/Danyvg16/avance1-fbcmd4j.git
 
                               Importar a Eclipse
 
