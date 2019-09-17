@@ -11,6 +11,7 @@ CLIENTE DE FACEBOOK
                               o	Instalación:
 
 Para comenzar a usar Java SDK, siga las instrucciones en "Getting started instruction".
+
 Si desea utilizar un archivo .jar precompilado, visite https://repo1.maven.org/maven2/com/facebook/business/sdk/facebook-java-business-sdk/ para descargar una versión específica. Si descarga el que no tiene dependencias, deberá descargar todos los archivos .jar dependientes y agregarlos a su ruta cuando compile y ejecute. Use el archivo .pom en el directorio de la versión para decidir las dependencias.
 
 
