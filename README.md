@@ -15,7 +15,9 @@ git clone https://github.com/DavidServn/fbcmd4j.git
 
                               Importar a Eclipse
 
-Dar clic en File -> Import -> Existing Projects into Workspace.
+Dar clic en 
+
+File -> Import -> Existing Projects into Workspace.
 Seleccionar la carpeta raíz donde se clonó el proyecto.
 Exportar .jar
 
